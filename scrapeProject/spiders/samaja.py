@@ -9,7 +9,7 @@ from datetime import date, timedelta
 
 def fetch_start_urls():
     # start date: https://www.samajalive.in/date/2018/02/05
-    start_date = date(2018, 2, 5)
+    start_date = date(2021, 12, 27)
     end_date = date.today()
     delta = timedelta(days=1)
     urls = []
